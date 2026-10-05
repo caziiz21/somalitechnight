@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+}
+
+h1,
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #eaeaea;
+}
+
+p {
+  color: #a3a3a3;
+  margin: 4px;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+a:hover {
+  color: #00ffb2;
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contaner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+}
+img {
+  border-radius: 8px;
+  width: 500px;
+  height: 350px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 8px;
+  background-color: #ff3d71;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #00ffb2;
+}
+
+.Speakerss {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.Speakers-r {
+  border: 2px solid #e5e5e5;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.Spears-mg {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.Event-schedule {
+  display: flex;
+  gap: 16px;
+}
+
+.Event-schedules {
+  border: 2px solid #e5e5e5;
+  padding: 8px 24px;
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.Location {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.lct-prg {
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+input,
+textarea {
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 700;
+  border: 2px solid #e5e5e5;
+}
+
+footer {
+  padding: 8px 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer:hover {
+  color: #1d6ff2;
+}
