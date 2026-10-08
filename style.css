@@ -8,6 +8,14 @@ body {
   background-color: #111111;
 }
 
+body.dark{
+  background-color: white;
+}
+
+body.dark h1,body.dark h2{
+  color: #111111;
+}
+
 h1,
 h2 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -21,6 +29,10 @@ p {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+body.dark p{
+  color: #111111;
+}
+
 header {
   padding: 16px;
   display: flex;
@@ -32,12 +44,21 @@ nav {
   gap: 24px;
 }
 
+
 a {
   text-decoration: none;
   color: #eaeaea;
 }
 
+body.dark a{
+  color: #111111;
+}
+
 a:hover {
+  color: #00ffb2;
+}
+
+body.dark a:hover{
   color: #00ffb2;
 }
 
